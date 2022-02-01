@@ -1,0 +1,103 @@
+.navbar {
+  background-color: #6A5ACD !important;
+}
+
+.navbar{
+    height: 70px;
+}
+
+.row>* {
+    width: 40% !important;
+    }
+
+.btn-outline-light {
+    color: #6A5ACD !important;
+    border-color: #6A5ACD !important;
+}
+.btn-outline-secondary {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.header {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    display: block;
+}
+
+.pseudo_header {
+    border-bottom: 70 em solid #ffffff !important;
+}
+.p-2 {
+    padding: 0.7rem!important;
+}
+
+a {
+    color: #6A5ACD;
+    text-decoration: none;
+    page-link:
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #6667AB;
+    border-color: #6667AB;
+}
+
+.container_list {
+    margin-top: 2%;
+}
+
+.container_pagination {
+    position: bottom;
+}
+
+.container_card {
+    margin-bottom:  2rem;
+}
+
+.page-link {
+
+    color: #6667ABd;
+    }
+
+.btn-sort {
+    margin-top: 5%;
+    margin-left: 70%;
+}
+.btn-drop {
+     color: #00008B !important;
+     border-color: #00008B !important;
+}
+.dropdown-item {
+    color: #00008B
+}
+.container-detail {
+    margin-top: 5%;
+    margin-left: 5%;
+    }
+
+.container-meta {
+    margin-left:0.5%;
+}
+
+.container-about {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contacts {
+    margin-top: 3%;
+    margin-right: 80%;
+}
+
+.about-heading {
+    margin-top: 5%;
+}
+.about {
+    margin-top: 2%;
+}

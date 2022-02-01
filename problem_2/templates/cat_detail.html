@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ cat.name }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="container-detail row">
+        <div class="col-md-3" class="p-3 ">
+<!--          <img width = "500" src="static/images/kot_index.jpeg" class="rounded float-start" alt="Котик"> -->
+        <img width = "500" src="static/images/{{ cat.image }}" class="rounded float-start" alt="Здесь должно быть фото котика по имени {{cat.name}}">
+        </div>
+
+        <div class="container-meta col-md-3">
+            <div class="p-3 border bg-light"><div style="font-weight:bold">Имя:</div> {{ cat.name }}</div>
+            <div class="p-3 border bg-light"><div style="font-weight:bold">Порода:</div> {{ cat.breed }}</div>
+            <div class="p-3 border bg-light"> <div style="font-weight:bold">Возраст: </div>{{ cat.age }} мес.</div>
+            <div class="p-3 border bg-light"><div style="font-weight:bold">Описание:</div> {{ cat.description }}</div>
+
+        </div>
+    </div>
+
+{% endblock %}
